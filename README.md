@@ -19,3 +19,22 @@ As each layer was processed, the stratified subsamples were aggregated and are c
 
 The "FINAL STATS" arrays at the very end of the report is pre-aggregated statistics from every layer to simplify any analysis that would go across, e.g. "Maximum max" across all the layers.
 
+## Data Definitions
+
+ - `shape` the dimensions of the tenor, e.g.	`(128256, 4096)`
+ - `cluster_calc_time_sec`	the time it took in seconds to find the best kmeans clustering, testing 3 - 32 exclusive, e.g. `1`
+ - `count_nonzero`	count of non-zero weights, e.g. `525336576`
+ - `zeros` count of zero weights, e.g. `10`
+ - `count`	total count of weights (aka parameter count), e.g. `525336576`
+ - `zero_percent` percent of zero weights to four sig figs, e.g.	`0.0000`
+ - `min` minimum weight (census), e.g.	`-0.08203125`
+ - `max` maximum weight (census), e.g. `0.22558594`
+ - `mean` average weight (census), e.g. `1.8423598e-05`
+ - `median` median weight (census), e.g. `2.646978e-23`
+ - `std_dev` standard deviation (census), e.g.	`0.009330472`
+ - `freq_table` object containing `freq` (frequency) and `value` (bucket value) -- always 16 buckets. In HTML the table includes an index column. 
+ - `best_n_clusters` selected best kmeans clustering N (from 3 - 32 exclusive) using a stratified sample, e.g. `21`
+ - `best_cluster_centers` cluster centers as determined by kmeans for the best cluster N
+ - `best_silhouette_score` best silhouttete score across kmeans experiments, e.g.	`0.54720515`
+ - `best_cluster_boundaries` cluster boundaries from -inf to +inf 
+

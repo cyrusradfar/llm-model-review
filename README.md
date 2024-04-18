@@ -15,5 +15,7 @@ To generate the report, a process iterates and analyzes the weights. At each lay
  - frequency histogram with 16 buckets
  - best fitting kmeans clustering by silhouette score, cluster centers included. Examined 3 - 32 cluster counts. Note that a stratified sample across 10 deciles of 1500 weights was used to expedite kmeans clustering
 
-As each layer was processed, the stratified subsamples were aggregated and are called the "ALL" layer at the end of the report.
+As each layer was processed, the stratified subsamples were aggregated and are called the "FINAL SAMPLE" layer near the end of the report.
+
+The "FINAL STATS" arrays at the very end of the report is pre-aggregated statistics from every layer to simplify any analysis that would go across, e.g. "Maximum max" across all the layers.
 

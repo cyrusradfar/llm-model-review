@@ -4,7 +4,7 @@
 
 There is a (very long) by layer report as HTML and a JSON version of the data.
 
-- [Llama 3 8b Report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cyrusradfar/llm-model-review/main/llama-3/report.html), [json data](./llama-3/metrics.json)
+- [Llama 3 8b Report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cyrusradfar/llm-model-review/main/llama-3-8b/report.html), [json data](./llama-3-8b/metrics.json)
 - [Llama 2 7b Report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cyrusradfar/llm-model-review/main/llama-2-7b/report.html), [json data](./llama-2-7b/metrics.json)
 - [Vicuna 13b Report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/cyrusradfar/llm-model-review/main/vicuna-13b/report.html), [json data](./vicuna-13b/metrics.json)
 
